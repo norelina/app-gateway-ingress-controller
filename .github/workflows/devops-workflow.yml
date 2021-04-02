@@ -5,29 +5,29 @@ on:
       - main
 
 env:
-  RESOURCEGROUPNAME: "agic-sampleapp-rg"
+  RESOURCEGROUPNAME: "agic-lila-sampleapp-rg"
   LOCATION: "eastus"
   SUBSCRIPTIONID: ${{ secrets.SUBSCRIPTIONID }}
   KUBERNETESSUBNETNAME: "kubesubnet"
   APPGATEWAYSUBNETNAME: "appgwsubnet"
-  VNETNAME: "agic-sampleapp-vnet"
-  APPGWYNAME: "agic-sampleapp-appgwy"
-  IDNTYNAME: "agic-sampleapp-appgwyIdnty"
-  APPGWYPUBIPNAME: "agic-sampleapp-appgwpublicip"
-  IMAGENAME: "agicsampleappcc74"
+  VNETNAME: "agic-lila-sampleapp-vnet"
+  APPGWYNAME: "agic-lila-sampleapp-appgwy"
+  IDNTYNAME: "agic-lila-sampleapp-appgwyIdnty"
+  APPGWYPUBIPNAME: "agic-lila-sampleapp-appgwpublicip"
+  IMAGENAME: "agiclilasampleappcc74"
   REGISTRYSKU: "Standard"
-  REGISTRYNAME: "agicsampleappacr"
+  REGISTRYNAME: "agiclilasampleappacr"
   REGISTRYLOCATION: "southcentralus"
-  CLUSTERNAME: "agic-sampleapp-cluster"
+  CLUSTERNAME: "agic-lila-sampleapp-cluster"
   KUBERNETESAPI: "apps/v1"
   AGENTCOUNT: "3"
   AGENTVMSIZE: "Standard_DS2_v2"
   KUBERNETESVERSION: 1.19.6 
   AKSENABLERBAC: true
-  NAMESPACE: "agicsampleapp11bd"
+  NAMESPACE: "agiclilasampleapp11bd"
   APPINSIGHTSLOCATION: "eastus"
   OMSLOCATION: "eastus"
-  OMSWORKSPACENAME: "agicsampleappc426"
+  OMSWORKSPACENAME: "agiclilasampleappc426"
   HTTPSAPPLICATIONROUTINGENABLED: false
 
 
