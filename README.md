@@ -151,4 +151,3 @@ Folder structure:
     ```
     
     ![app gateway ingress controller](./assets/result.png)
-
